@@ -6,11 +6,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-
-try:
-    import psychrolib
-except Exception as e:
-    raise SystemExit("PsychroLib is required. Install with: pip install psychrolib")
+import psychrolib
 
 psychrolib.SetUnitSystem(psychrolib.SI)
 
@@ -34,9 +30,9 @@ GetTWetBulbFromHumRatio   = psychrolib.GetTWetBulbFromHumRatio
 # ---------------------------
 # UI
 # ---------------------------
-st.set_page_config(page_title="Psicrometría (SI)", page_icon="🌡️", layout="centered")
-st.title("🌡️ Diagrama psicrométrico básico (SI)")
-st.caption("App hermana de la de agua/vapor. Librería: PsychroLib (ASHRAE).")
+st.set_page_config(page_title="Psicrometría", page_icon="🌡️", layout="centered")
+st.title("🌡️ Propiedades del Aire Húmedo")
+st.caption("Termodinámica y Máquinas Térmicas")
 
 with st.sidebar:
     st.header("Condiciones y entradas")
