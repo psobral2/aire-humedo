@@ -1,4 +1,3 @@
-CoolProp
 matplotlib
 psychrolib
 numpy
