@@ -31,8 +31,8 @@ GetTWetBulbFromHumRatio   = psychrolib.GetTWetBulbFromHumRatio
 # UI
 # ---------------------------
 st.set_page_config(page_title="Psicrometría", page_icon="🌡️", layout="centered")
-st.title("🌡️ Propiedades del Aire Húmedo")
-st.caption("Termodinámica y Máquinas Térmicas")
+st.markdown(f"### **🌡️ Propiedades del Aire Húmedo**")
+st.caption("###### Termodinámica y Máquinas Térmicas")
 
 with st.sidebar:
     st.header("Condiciones y entradas")
