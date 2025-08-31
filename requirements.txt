@@ -1,2 +1,4 @@
 CoolProp
 matplotlib
+psychrolib
+numpy
